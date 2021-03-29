@@ -1,0 +1,111 @@
+/* START: Task 1 Styles */
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2 {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-name {
+    justify-content: center;
+    padding: 5%;
+    height: auto;
+    background-color: #ff7c80;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+.form-input {
+    width: 80%;
+    margin-right: 5%;
+    padding: 4%;
+    font-size: 12px;
+    border: 2px solid #ff7c80;
+}
+
+.sent-input {
+    width: 80%;
+    margin-right: 5%;
+    padding: 4%;
+    font-size: 12px;
+    border: 1px solid #000000;
+}
+
+.form-btn {
+    width: 15%;
+}
+
+.sent {
+    padding: 5%;
+    margin-bottom: 5%;
+    height: auto;
+    border: 1px solid #000000;
+    color: #ffffff;
+    background-color: green;
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+#task3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#field {
+    background-image: url("./assets/court.png");
+    background-position: center;
+    background-size: 100%;
+    width: 600px;
+    height: 330px;
+    background-color: #00ff00;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#ball {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    transition: all 1s;
+}
+
+#score {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+#save_block {
+    height: 330px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#save_a {
+    width: 15px;
+    height: 15px;
+    margin-left: 30px;
+}
+
+#save_b {
+    width: 15px;
+    height: 15px;
+    margin-right: 30px;
+}
+/* END: Task 3 Styles */

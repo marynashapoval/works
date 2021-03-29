@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 15 - JS DOM Events</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="task1">
+  </div>
+
+  <div id="task2">
+    <p id="form-name" class="form-name">Type number does not follow format +380********</p>
+    <form id="form">
+      <input type="tel" class="form-input" id="phone" name="phone" oninput="validateNumber()"
+        placeholder="Type phone number in format +380********">
+      <input type="button" class="form-btn" id="form-btn" value="Send" disabled>
+    </form>
+  </div>
+
+  <div id="task3">
+    <div id="field">
+      <img id="ball" src="./assets/ball.png" alt="">
+      <div id="save_block">
+        <div id="save_a"></div>
+        <div id="save_b"></div>
+      </div>
+    </div>
+    <div id="score">
+      <div>Team A :<span id="counter_a" class="count">0</span></div>
+      <div><span id="result"></span></div>
+      <div>Team B :<span id="counter_b" class="count">0</span></div>
+    </div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

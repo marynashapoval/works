@@ -1,0 +1,20 @@
+.folder::before {
+    display: block;
+    content: '';
+    background-size: cover;
+}
+
+.folder {
+    display: flex;
+    cursor: pointer;
+}
+
+.file::before {
+    display: block;
+    content: '';
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
